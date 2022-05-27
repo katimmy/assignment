@@ -8,8 +8,7 @@ public class ConfigurationManager {
 
     public static ApiConfigurations apiConfigurations() {
 
-        return  ConfigCache.getOrCreate(ApiConfigurations.class);
-    
+        return  ConfigCache.getOrCreate(ApiConfigurations.class);    
     }
     
 }
