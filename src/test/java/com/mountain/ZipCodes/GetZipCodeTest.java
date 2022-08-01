@@ -42,7 +42,7 @@ public class GetZipCodeTest {
      Response response = restUtils.getGetResponse(json, service, endpoint);
 
      JsonPath locationData = response.jsonPath();
-
+    //All is good
    
      printJson.printWellFormatedJson(response.asString(), "response", service);
 
